@@ -6,15 +6,24 @@ export const styles = StyleSheet.create({
       backgroundColor:'#131016',
       padding:24
     },
-    eventName:{
-      color:'#fdfcfe',
-      fontWeight:'bold',
-      fontSize:24,
-      marginTop:48
+    Logo:{
+      marginLeft:'35%',
+      marginTop:30
     },
-    eventDate:{
-      color:'#6b6b6b',
-      fontSize:16,
+
+    view:{
+      display:"flex",
+      flexDirection:"row",
+      justifyContent:"space-between",
+      marginBottom:20,
+    },
+    create:{
+      color:'#00c7ff',
+      fontSize:20,
+    },
+    finish:{
+      color:'#8284fa',
+      fontSize:20,
     },
     input:{
         flex:1,
@@ -34,19 +43,26 @@ export const styles = StyleSheet.create({
         width:56,
         height:56,
         borderRadius:5,
-        backgroundColor:'#31CF67',
+        backgroundColor:'#1e6f9f',
         alignItems:'center',
         justifyContent:'center',
     },
     form:{
         width:'100%',
         flexDirection:'row',
-        marginTop:36,
+        marginTop:16,
         marginBottom:42
     },
     listEmptyText:{
       color:'#FFF',
       fontSize:14,
       textAlign:"center",
+      marginTop:10
+  },
+  Icon:{
+
+    marginLeft:'40%',
+    marginTop:20,
+
   },
   })

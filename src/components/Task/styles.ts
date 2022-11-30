@@ -17,6 +17,14 @@ name:{
     marginLeft:16,
 
 },
+nameLine:{
+    flex:1,
+    color:'#808080',
+    fontSize:16,
+    marginLeft:16,
+    textDecorationLine:'line-through',
+
+},
 buttonText:{
     color:'#FFF',
     fontSize:24,
